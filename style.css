@@ -11,7 +11,7 @@ body {
 .main-hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/rear-view-excited-people-with-arms-raised-having-fun-while-watching-confetti-fireworks-front-stage-music-festival-copy-space_637285-568.jpg?w=1380&t=st=1691035890~exp=1691036490~hmac=ea7630f1d79ccf3666e827538c195a93bbc4b17a89398667ab6a2bc18b58ed07");
     height: 300px;
-    width: 100%;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@ body {
 }
 
 .main-hero-txt {
-    color:#fdebeb;
+    color: #fdebeb;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -65,6 +65,8 @@ h4 {
 
 .main-page-grid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: auto;
 }
 
 .pop-redirect {
@@ -143,7 +145,7 @@ img {
 }
 
 .pop-hero-txt {
-    color:#fdebeb;
+    color: #fdebeb;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -154,34 +156,30 @@ img {
 .pop-page-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2;
 }
 
 .pop-info {
-    padding: 10px;
-    margin-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
-}
-
-.pop-info-txt {
-    color:#E2F1FF;
+    column-gap: auto;
+    color: #E2F1FF;
     background-color: #5776AD;
     padding: 10px;
-    margin-left: -10px;
+    margin-top: 10px;
 }
 
 .pop-artists {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    color:#5776AD;
+    color: #5776AD;
+    column-gap: 100px;
 }
 
 .pop-artist-1 {
     background-color: #5776ad1a;
-    width: 500px;
+    width: auto;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
@@ -192,7 +190,7 @@ img {
 
 .pop-artist-2 {
     background-color: #5776ad1a;
-    width: 500px;
+    width: auto;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
@@ -203,7 +201,7 @@ img {
 
 .pop-artist-3 {
     background-color: #5776ad1a;
-    width: 500px;
+    width: auto;
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
