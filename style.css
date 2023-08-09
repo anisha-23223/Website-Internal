@@ -63,14 +63,16 @@ h4 {
     color: #5776AD;
 }
 
-.main-page-grid {
+.redirect-grid {
+    padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: auto;
+    row-gap: 10px;
 }
 
 .pop-redirect {
-    width: 700px;
+    width: 600px;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -82,7 +84,7 @@ h4 {
 }
 
 .jazz-redirect {
-    width: 700px;
+    width: 600px;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -94,7 +96,7 @@ h4 {
 }
 
 .hiphop-redirect {
-    width: 700px;
+    width: auto;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -106,7 +108,7 @@ h4 {
 }
 
 .rock-redirect {
-    width: 700px;
+    width: auto;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -132,6 +134,7 @@ img {
     height: 185px;
     width: 200px;
     border-radius: 50%;
+    padding: 10px;
 }
 
 .pop-hero-img {
@@ -153,23 +156,18 @@ img {
     transform: translate(-50%, -50%);
 }
 
-.pop-page-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.pop-info {
+.genre-info {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
     column-gap: auto;
-    color: #E2F1FF;
-    background-color: #5776AD;
+    color: #5776AD;
+    background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
 }
 
-.pop-artists {
+.genre-artists {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -177,8 +175,8 @@ img {
     column-gap: 100px;
 }
 
-.pop-artist-1 {
-    background-color: #5776ad1a;
+.genre-artist-1 {
+    border: 1px solid #5776AD;
     width: auto;
     display: grid;
     align-items: center;
@@ -188,8 +186,8 @@ img {
     margin-bottom: 10px;
 }
 
-.pop-artist-2 {
-    background-color: #5776ad1a;
+.genre-artist-2 {
+    border: 1px solid #5776AD;
     width: auto;
     display: grid;
     align-items: center;
@@ -199,8 +197,8 @@ img {
     margin-bottom: 10px;
 }
 
-.pop-artist-3 {
-    background-color: #5776ad1a;
+.genre-artist-3 {
+    border: 1px solid #5776AD;
     width: auto;
     display: grid;
     align-items: center;
