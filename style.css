@@ -9,8 +9,8 @@ body {
 }
 
 .main-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/rear-view-excited-people-with-arms-raised-having-fun-while-watching-confetti-fireworks-front-stage-music-festival-copy-space_637285-568.jpg?w=1380&t=st=1691035890~exp=1691036490~hmac=ea7630f1d79ccf3666e827538c195a93bbc4b17a89398667ab6a2bc18b58ed07");
-    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/b3ecaab5-8efe-40a1-aa82-bcf565b23627/thumb/");
+    height: 500px;
     width: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ h4 {
 }
 
 .pop-redirect {
-    width: 700px;
+    width: 500px;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -84,7 +84,7 @@ h4 {
 }
 
 .jazz-redirect {
-    width: 700px;
+    width: 500px;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -96,7 +96,7 @@ h4 {
 }
 
 .hiphop-redirect {
-    width: auto;
+    width: 500px;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -108,7 +108,7 @@ h4 {
 }
 
 .rock-redirect {
-    width: auto;
+    width: 500px;
     background-color: #5776ad1a;
     padding: 10px;
     margin-top: 10px;
@@ -130,21 +130,11 @@ button:hover {
     background-color: #8DAAE5;
 }
 
-img {
+#redir-img {
     height: 180px;
     width: 200px;
     border-radius: 50%;
     padding: 10px;
-}
-
-.genre-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/rear-view-excited-people-with-arms-raised-having-fun-while-watching-confetti-fireworks-front-stage-music-festival-copy-space_637285-568.jpg?w=1380&t=st=1691035890~exp=1691036490~hmac=ea7630f1d79ccf3666e827538c195a93bbc4b17a89398667ab6a2bc18b58ed07");
-    height: 300px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .genre-hero-txt {
@@ -206,4 +196,59 @@ img {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+#redir-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+#genre-art-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.rock-hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Lzy_concert_Poznan_2005_stage_1.jpg");
+    height: 500px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hiphop-hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/d176741c-d90f-443a-9add-e4d123bc4457/thumb/");
+    height: 500px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.pop-hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/899855e1-2c3f-442f-a131-157f002ed72a/thumb/");
+    height: 500px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jazz-hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/7d40ac8b-944d-401f-9afb-251bba089a4e/thumb/");
+    height: 500px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
