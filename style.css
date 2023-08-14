@@ -224,7 +224,7 @@ button:hover {
 }
 
 .hiphop-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/d176741c-d90f-443a-9add-e4d123bc4457/thumb/");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/3f4c9230-cd1f-4b75-a289-89959f8fcdd0/thumb/");
     height: 500px;
     width: auto;
     background-position: center;
