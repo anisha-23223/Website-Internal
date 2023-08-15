@@ -9,7 +9,7 @@ body {
 }
 
 .main-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/b3ecaab5-8efe-40a1-aa82-bcf565b23627/thumb/");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/home-hero.webp');
     height: 500px;
     width: auto;
     background-position: center;
@@ -216,7 +216,7 @@ button:hover {
 }
 
 .rock-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Lzy_concert_Poznan_2005_stage_1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/rock-hero.jpg');
     height: 500px;
     width: auto;
     background-position: center;
@@ -226,7 +226,7 @@ button:hover {
 }
 
 .hiphop-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/3f4c9230-cd1f-4b75-a289-89959f8fcdd0/thumb/");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/hiphop-hero.webp');
     height: 500px;
     width: auto;
     background-position: center;
@@ -236,7 +236,7 @@ button:hover {
 }
 
 .pop-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/899855e1-2c3f-442f-a131-157f002ed72a/thumb/");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/pop-hero.webp');
     height: 500px;
     width: auto;
     background-position: center;
@@ -246,7 +246,7 @@ button:hover {
 }
 
 .jazz-hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://api.openverse.engineering/v1/images/7d40ac8b-944d-401f-9afb-251bba089a4e/thumb/");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/jazz-hero.webp');
     height: 500px;
     width: auto;
     background-position: center;
