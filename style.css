@@ -105,6 +105,7 @@ h4 {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
 }
 
 .rock-redirect {
@@ -117,6 +118,7 @@ h4 {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
 }
 
 button {
@@ -199,18 +201,18 @@ button:hover {
 }
 
 
-#redir-img {
+.redir-img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    object-fit:cover;
+    object-fit: cover;
 }
 
-#genre-art-img {
+.genre-art-img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .rock-hero-img {
@@ -251,4 +253,24 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.about-background {
+    height: 250px;
+    width: auto;
+    background-color: #5776AD;
+}
+
+.about-title {
+    color: aliceblue;
+    text-align: center;
+    padding: 90px;
+}
+
+p {
+    color: #5776AD;
+}
+
+.rock-credits-grid {
+    padding-bottom: 10px;
 }
