@@ -121,6 +121,13 @@ h4 {
     margin-bottom: 20px;
 }
 
+.redir-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 button {
     border: 1px solid #5776ad60;
     border-radius: 10px;
@@ -130,13 +137,6 @@ button {
 
 button:hover {
     background-color: #8DAAE5;
-}
-
-#redir-img {
-    height: 180px;
-    width: 200px;
-    border-radius: 50%;
-    padding: 10px;
 }
 
 .genre-hero-txt {
@@ -200,14 +200,6 @@ button:hover {
     margin-bottom: 10px;
 }
 
-
-.redir-img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .genre-art-img {
     height: 150px;
     width: 150px;
@@ -267,10 +259,10 @@ button:hover {
     padding: 90px;
 }
 
-p {
-    color: #5776AD;
-}
-
 .rock-credits-grid {
     padding-bottom: 10px;
+}
+
+p {
+    color: #5776AD;
 }
